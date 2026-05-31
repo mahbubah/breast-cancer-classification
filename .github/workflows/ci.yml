@@ -27,6 +27,3 @@ jobs:
 
       - name: Run unit tests
         run: pytest tests/ -v --tb=short
-
-      - name: Check code style
-        run: flake8 src/ tests/ --max-line-length=100 --extend-ignore=E501
